@@ -1,3 +1,14 @@
+#fh5co-parent{
+	width: 100%;
+	background: #f0f0ff;
+}
+
+#fh5co-main {
+	max-width: 80% !important;
+	margin: 3em auto 3em auto !important;
+	border-radius: 0px !important;
+}
+
 .fh5co-tab-wrap .fh5co-tab-menu li a:after{
 	
 	background: #293c4c !important;
@@ -5,4 +16,8 @@
 
 .fh5co-counter .fh5co-number{
 	color: #3d83bd !important;	
+}
+
+.fag-projects{
+	color: black;
 }
