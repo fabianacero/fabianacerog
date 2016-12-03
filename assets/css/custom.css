@@ -21,3 +21,13 @@
 .fag-projects{
 	color: black;
 }
+
+.row.odd{
+    background-color: #242426;
+    color: white;
+}
+
+.row.eve{
+    background-color: #3d83bd;
+    color: #121415;
+}
