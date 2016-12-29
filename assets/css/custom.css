@@ -1,12 +1,39 @@
+html, body{
+	background-color: #dcdcdc;
+}
+
+
 #fh5co-parent{
 	width: 100%;
 	background: #f0f0ff;
 }
 
 #fh5co-main {
-	max-width: 80% !important;
-	margin: 3em auto 3em auto !important;
-	border-radius: 0px !important;
+    max-width: 95% !important;
+    margin: 40px auto 5px auto !important;
+}
+
+#projects-parent{
+	margin: 0px 0px 50px 0px;
+}
+
+.chart span{
+	width: 120px;
+    top: 66px;
+    font-size: 16px;
+}
+
+.fh5co-tab-wrap .fh5co-tab-menu li.active > a {
+    color: #3d83bd;
+}
+
+.fh5co-tab-wrap .fh5co-tab-content .fh5co-content-inner {
+    padding: 7em 0px 0px 0px !important;
+}
+
+.fh5co-tab-wrap .fh5co-tab-content {
+    padding-left: 21px;
+    padding-right: 35px;
 }
 
 .fh5co-tab-wrap .fh5co-tab-menu li a:after{
@@ -22,12 +49,32 @@
 	color: black;
 }
 
-.row.odd{
-    background-color: #242426;
+.project-box{
+    height: 300px;
+    padding: 20px;
+}
+
+.project-box.odd{
+    background: #212121;
     color: white;
 }
 
-.row.eve{
-    background-color: #3d83bd;
+.project-box.eve{
+    background-color: #d8d7d7;
     color: #121415;
+}
+
+
+.projects-row{
+	margin-bottom: 20px;
+}
+
+.site-title{
+    background-color: #3d83bd;
+    margin: 18px 0px;
+    border-radius: 5px;
+}
+
+.site-title h1{
+    margin: 12px 12px;
 }
