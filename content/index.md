@@ -28,27 +28,32 @@ Skill:
   Yii2 : 50
   Wordpress : 30
 Projects:
+  sive:
+    endrow: true
+    title: SIVE
+    startdate: 2013
+    date: 2013 - 2014
+    class: odd
+    description: El SIVE (Sistema Interactivo de Videoconferencia Educativa) es una plataforma del SENA que tiene como objetivo la realización de videoconferencias online con diversos temas educativos. El portal hace uso de streaming en vivo y por demanda para la realización de dichas videoconferencias y ha sido desarrollado con herramientas como PHP, JQuery y HTML.
   emanagement:
     startrow: true
     title: e-management
+    startdate: 2010
     date: 2010 - 2014
     image: /assets/projects/emanagement_project.jpg
-    class: odd
-    description: E-management es una plataforma para la gestión de redes desarrollada por e-solutions que le permite al cliente monitorear en cada momento sus dispositivos de red y la obtención de SLAs (Service Level Agreements) que ayuden en la toma de decisiones. Durante el periodo de 2010 – 2014 he tenido la oportunidad de desarrollar y mejorar funcionalidades de la plataforma con la ayuda de diversas tecnologías, como Actionscript, PHP, PERL, HTML y JQuery.
-  sive:
-    title: SIVE
-    date: 2013 - 2014
     class: eve
-    description: El SIVE (Sistema Interactivo de Videoconferencia Educativa) es una plataforma del SENA que tiene como objetivo la realización de videoconferencias online con diversos temas educativos. El portal hace uso de streaming en vivo y por demanda para la realización de dichas videoconferencias y ha sido desarrollado con herramientas como PHP, JQuery y HTML.
+    description: E-management es una plataforma para la gestión de redes desarrollada por e-solutions que le permite al cliente monitorear en cada momento sus dispositivos de red y la obtención de SLAs (Service Level Agreements) que ayuden en la toma de decisiones. Durante el periodo de 2010 – 2014 he tenido la oportunidad de desarrollar y mejorar funcionalidades de la plataforma con la ayuda de diversas tecnologías, como Actionscript, PHP, PERL, HTML y JQuery.
   elburro:
+    startrow: true
     title: Herbario Virtual Humedal El Burro
+    startdate: 2009
     date: 2010
     class: odd
     description: El herbario virtual del humedal el burro tiene como objetivo mostrar de forma virtual la flora del dicho ecosistema y su localización en Bogotá. El proyecto web fue realizado en Action Script con animaciones en FLASH y HTML.
-    endrow: true
   ecaes:
-    startrow: true
+    endrow: true
     title: Ecaes On Line
+    startdate: 2006
     date: 2006
     class: eve
     description: El proyecto tuvo como objetivo la realización de simulacros que evaluaban el nivel académico de los estudiantes para el ECAES por medio Web, con el fin de medir las aptitudes de los estudiantes de los últimos semestres de carreras tecnológicas. El proyecto fue realizado en PHP, JAVA SCRIPT y MYSQL.

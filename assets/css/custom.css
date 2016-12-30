@@ -49,24 +49,66 @@ html, body{
 	color: black;
 }
 
+.hideme
+{
+    opacity:0;
+}
+
 .project-box{
     height: 300px;
     padding: 20px;
+    border-radius: 15px;
 }
 
 .project-box.odd{
-    background: #212121;
+    background: #565555;
     color: white;
 }
 
+.project-box.odd:after{
+    position: absolute;
+    height: 54px;
+    bottom: 20px;
+    border-top: 27px solid transparent;
+    border-left: 20px solid #565555;
+    border-right: 0px solid #565555;
+    border-bottom: 27px solid transparent;
+    content: " ";
+    display: inline-block;
+    right: 62px;
+}
+
 .project-box.eve{
-    background-color: #d8d7d7;
+    background-color: #72aee0;
     color: #121415;
 }
 
+.project-box.eve:before{
+    position: absolute;
+    height: 54px;
+    bottom: 20px;
+    border-top: 27px solid transparent;
+    border-left: 0px solid #72aee0;
+    border-right: 20px solid #72aee0;
+    border-bottom: 27px solid transparent;
+    content: " ";
+    display: inline-block;
+    left: 62px;
+}
 
-.projects-row{
-	margin-bottom: 20px;
+.project-container.odd{
+	border-right: solid 5px #3d83bd;
+    padding: 0px 80px 0px 0px;
+    margin: 0px 0px -1px 5px;
+}
+
+.project-container.eve{
+	border-left: solid 5px #3d83bd;
+	padding: 0px 0px 0px 80px;
+}
+
+.projects-row {
+	position: relative;
 }
 
 .site-title{
@@ -77,4 +119,23 @@ html, body{
 
 .site-title h1{
     margin: 12px 12px;
+}
+
+.timeline-point{
+	background: #3d83bd;
+    border-radius: 50%;
+    bottom: 0px;
+    height: 80px;
+    left: 47%;
+    line-height: 73px;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    width: 80px;
+    border: 6px solid white;
+}
+
+.timeline-point span{
+	color: white;
+    font-weight: bold;
 }
