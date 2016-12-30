@@ -3,7 +3,7 @@ Description: System Engineer - Back-end Web developer
 Job: Back-End Developer
 Img: https://unsplash.it/1920/1384?image=804
 Css: /assets/css/custom.css
-Prof: /assets/profile_img.png
+Prof: /assets/profile_facerog.jpg
 expn: 6
 site_title: Fabian Acero Garcia
 project_title: Proyectos

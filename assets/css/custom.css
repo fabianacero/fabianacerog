@@ -13,6 +13,10 @@ html, body{
     margin: 40px auto 5px auto !important;
 }
 
+#fh5co-footer{
+    position: relative;
+}
+
 #projects-parent{
 	margin: 0px 0px 50px 0px;
 }
@@ -68,7 +72,7 @@ html, body{
 .project-box.odd:after{
     position: absolute;
     height: 54px;
-    bottom: 20px;
+    bottom: 8px;
     border-top: 27px solid transparent;
     border-left: 20px solid #565555;
     border-right: 0px solid #565555;
@@ -86,7 +90,7 @@ html, body{
 .project-box.eve:before{
     position: absolute;
     height: 54px;
-    bottom: 20px;
+    bottom: 8px;
     border-top: 27px solid transparent;
     border-left: 0px solid #72aee0;
     border-right: 20px solid #72aee0;
@@ -94,6 +98,11 @@ html, body{
     content: " ";
     display: inline-block;
     left: 62px;
+}
+
+.first-project-container{
+
+	padding: 50px 80px 0px 0px !important;
 }
 
 .project-container.odd{
@@ -113,8 +122,8 @@ html, body{
 
 .site-title{
     background-color: #3d83bd;
-    margin: 18px 0px;
-    border-radius: 5px;
+    margin: 19px 0px 0px 0px;
+    border-radius: 8px;
 }
 
 .site-title h1{
@@ -125,10 +134,10 @@ html, body{
 	background: #3d83bd;
     border-radius: 50%;
     bottom: 0px;
+	color: white;
     height: 80px;
     left: 47%;
-    line-height: 73px;
-    margin: 0 auto;
+    padding: 3px;
     position: absolute;
     text-align: center;
     width: 80px;
@@ -136,6 +145,53 @@ html, body{
 }
 
 .timeline-point span{
-	color: white;
     font-weight: bold;
+}
+
+@media (max-width: 991px){
+
+	.first-project-container {
+		padding: 42px 0px 0px 80px !important;
+	}
+
+	.project-container.odd{
+		border-right: solid 0px transparent;
+		border-left: solid 5px #3d83bd;
+		padding: 0px 0px 0px 80px;
+	}
+
+	.project-box{
+		margin: 0px 0px 40px;
+	}
+
+	.project-box.odd:after {
+	   content: none;
+	}
+
+	.project-box.odd:before{
+	    position: absolute;
+	    height: 54px;
+	    bottom: 47px;
+	    border-top: 27px solid transparent;
+	    border-left: 0px solid #565555;
+	    border-right: 20px solid #565555;
+	    border-bottom: 27px solid transparent;
+	    content: " ";
+	    display: inline-block;
+	    left: 62px;
+	}
+
+	.project-box.eve:before{
+		bottom: 47px;
+	}
+
+	.project-container.odd {
+	    margin: 0px 0px -2px 0px;
+	}
+
+	.timeline-point{
+		bottom: 35px;
+    	left: -40px !important;
+	}
+
 }
