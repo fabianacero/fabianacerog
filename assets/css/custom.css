@@ -27,6 +27,51 @@ html, body{
     font-size: 16px;
 }
 
+.chart span {
+    position: absolute;
+    left: 17px;
+    margin-top: -14px;
+}
+
+.img-container{
+    text-align: center;
+}
+
+.img-container img{
+    margin: 10px 0px;
+    max-width: 235px !important;
+    max-height: 160px !important;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 1);
+}
+
+.tab-content-title{
+	text-align: center;
+}
+
+.fh5co-counter .fh5co-number{
+	color: #3d83bd !important;	
+}
+
+.fh5co-counter .fh5co-number.fh5co-left{
+	text-align: right;
+}
+
+.fh5co-feature .fh5co-icon i {
+    color: #3d83bd;
+    font-size: 40px;
+}
+
+.fh5co-feature .fh5co-text{
+	width: 60%;
+}
+
+.fh5co-feature .fh5co-icon{
+    padding: 20px;
+    text-align: right;
+    width: 40%;
+}
+
 .fh5co-tab-wrap .fh5co-tab-menu li.active > a {
     color: #3d83bd;
 }
@@ -45,8 +90,13 @@ html, body{
 	background: #293c4c !important;
 }
 
-.fh5co-counter .fh5co-number{
-	color: #3d83bd !important;	
+.fh5co-tab-wrap .fh5co-tab-content {
+	padding-left: 2em;
+    padding-right: 2em;
+}
+
+.fh5co-text{
+	padding: 20px;		
 }
 
 .fag-projects{
@@ -58,8 +108,13 @@ html, body{
     opacity:0;
 }
 
+.project-title{
+    font-weight: bold;
+    font-size: 24px;
+}
+
 .project-box{
-    height: 300px;
+    min-height: 170px;
     padding: 20px;
     border-radius: 15px;
 }
